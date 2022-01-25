@@ -32,31 +32,53 @@ font-size: 18px;
     text-decoration: none;
     color: #fff;
 }
-.About{
+.About-me {
+    text-align: center;
     background-color:seashell;
     width: 100%;
     height: 350px;
     margin: 5px auto;
+    margin-bottom: 10px;
 }
-.About p{
-    margin-left: 50%;
+.About-me p{
+    margin-left: 10%;
+    margin-top: 0%;
+   
+
+}
+.myImg {
+   float: left;
+    margin-top: 0%;
+    margin-left: 10px;
+
 }
 .Works{
-background-color: silver;
+clear: both;
+background-color: rgb(206, 29, 29);
 margin: 10px;
 padding: auto;
 justify-content: center;
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
 }
 .Works project1{
     margin: 20px;
-display: flexbox;
-height: 300px;
+    height: 50px;
+}
+.js.png img{
+    width:40%;
+    height: 50px;
 }
 .Works project2{
     margin: 20px;
 }
+.nood.js.png img{
+    width: 100%;
+}
 .Works project3{
     margin: 20px;
+
 }
 .Works project4{
     margin: 20px;
@@ -75,7 +97,7 @@ height: 300px;
     padding: 0%;
     font-size: 20px;
 }
-.contact-info h6{
+.contact-info h2{
     margin: 20px 0;
     padding: 0%;
     font-size: 20px;
